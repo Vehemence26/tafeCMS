@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	padding: 20px;
+	height: 100vh;
+	width: 100vw;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	padding: 1em;
+	color: black;
+	font-family: "Arial Black", Gadget, sans-serif
+}
+li a:hover {
+  color: #ffc300;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+hr {
+	height: 2px;
+	color: #000;
+}
+
+footer {
+	text-align: center;
+	background-color: #7e7f82;
+	color: #fff;
+}
+.contact-info{
+text-align: center;
+background-color: #3158a0;
+color: white;
+
+border-radius: 1em;
+padding: 20px;
+height:100%;
+
+}
+#login {
+	background-color: #c1c1c1;
+	font-weight: bold;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+{
+	color: #ffc300;
+	text-decoration: none;
+	font-weight: bold;
+}
+.banner-img {
+	 //background-color: url(road-train.jpg) green;
+	 //background-size: contain;
+	 //background-repeat: no-repeat;
+	 padding: 0;
+}
+#banner {
+	//object-fit: fill;
+	padding: 0;
+	margin: 0;
+}
+
+.main-nav ul li a{
+	background-color: #c13313;
+	color: white;
+}
+.top-nav ul li a{
+	color: black;
+}
+.main-nav ul li a:hover, .top-nav ul li a:hover{
+	color: #ffc300;
+	text-decoration: none;
+	font-weight: bold;
+}
+.logo {
+	line-height: 0.4;
+	text-align: center;
+	height:100%;
+  	width: 100%;
+}
+.contact-info, .main-txt {
+	margin-bottom: 100px;
+}
+
+
+h1, h2, h3, h4 {
+
+	font-weight: bold;
+	text-transform: uppercase;
+}
+h1, h3 {
+	color: #c13313;
+}
+h2, h4 {
+	color: #3158a0;
+}
+strong {
+	color: #ffc300;
+}
+@media screen and ()
